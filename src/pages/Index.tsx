@@ -14,9 +14,9 @@ const Index = () => {
   const [isBundling, setIsBundling] = useState(true);
 
   const productImages = [
-    "public/assets/hero/1.png",
-    "public/assets/hero/2.png",
-    "public/assets/hero/3.png"
+    "/assets/hero/1.png",
+    "/assets/hero/2.png",
+    "/assets/hero/3.png"
   ];
 
   useEffect(() => {
