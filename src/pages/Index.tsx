@@ -1470,8 +1470,9 @@ features: [
             {/* Section 1 - Logo & Description */}
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
-                <Heart className="h-8 w-8 text-pink-500" />
-                <span className="text-2xl font-bold">Ramkative</span>
+              <a href="#" className="flex items-center space-x-2">
+                <img src="/assets/logo.png" alt="Logo Ramkative" className="h-10 w-auto" />
+              </a>
               </div>
               <p className="text-gray-300 leading-relaxed">
                 Solusi digital terpercaya untuk pernikahan mudah dan modern. Kami siap bantu mewujudkan pernikahan impian kamu dengan mudah dan dipadukan dengan teknologi terdepan serta desain yang memukau.
