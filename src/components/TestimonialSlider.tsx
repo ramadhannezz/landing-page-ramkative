@@ -19,7 +19,7 @@ const testimonials: Testimonial[] = [
     id: 1,
     name: "Sarah & Ahmad",
     role: "Pasangan Pengantin",
-    image: "/public/assets/user (1).jpg",
+    image: "/assets/user (1).jpg",
     rating: 5,
     text: "Ramkative sangat membantu pernikahan aku! Website undangan digitalnya elegan dan mudah digunakan. Semua tamu bisa RSVP dengan mudah dan QR Code guestbook-nya sangat praktis. Highly recommended!",
     weddingDate: "Oktober 2024"
@@ -28,7 +28,7 @@ const testimonials: Testimonial[] = [
     id: 2,
     name: "Dinda & Rizky",
     role: "Pasangan Pengantin",
-    image: "/public/assets/user (5).jpg",
+    image: "/assets/user (5).jpg",
     rating: 5,
     text: "Wedding planner tools dari Ramkative membantu banget dalam mengatur timeline dan budget pernikahan. Fitur vendor management-nya juga sangat berguna. Terima kasih Ramkative!",
     weddingDate: "September 2024"
@@ -37,7 +37,7 @@ const testimonials: Testimonial[] = [
     id: 3,
     name: "Maya & Fajar",
     role: "Pasangan Pengantin",
-    image: "/public/assets/user (3).jpg",
+    image: "/assets/user (3).jpg",
     rating: 5,
     text: "Awalnya ragu menggunakan undangan digital, tapi setelah coba Ramkative, aku jadi yakin! Template-nya bagus, customizable, dan ramah lingkungan. Customer service-nya juga responsif banget.",
     weddingDate: "November 2024"
@@ -46,7 +46,7 @@ const testimonials: Testimonial[] = [
     id: 4,
     name: "Siska & Jaka",
     role: "Pasangan Pengantin",
-    image: "/public/assets/user (6).jpg",
+    image: "/assets/user (6).jpg",
     rating: 4,
     text: "Digital guestbook dengan QR Code dari Ramkative bikin acara pernikahan aku jadi lebih interaktif. Tamu-tamu senang bisa langsung foto selfie dan kasih ucapan. Semua memories tersimpan dengan rapi!",
     weddingDate: "November 2024"
@@ -55,7 +55,7 @@ const testimonials: Testimonial[] = [
     id: 5,
     name: "Putri & Andi",
     role: "Pasangan Pengantin",
-    image: "/public/assets/user (4).jpg",
+    image: "/assets/user (4).jpg",
     rating: 5,
     text: "Digital guestbook dengan QR Code dari Ramkative bikin acara pernikahan aku jadi lebih interaktif. Tamu-tamu senang bisa langsung foto selfie dan kasih ucapan. Semua memories tersimpan dengan rapi!",
     weddingDate: "Desember 2024"
