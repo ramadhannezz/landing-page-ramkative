@@ -17,9 +17,10 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="payment-list" element={<PaymentList />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
-          <Route path="payment-list" element={<PaymentList />} />
+          
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
