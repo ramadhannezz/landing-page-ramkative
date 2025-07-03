@@ -14,9 +14,9 @@ const Index = () => {
   const [isBundling, setIsBundling] = useState(true);
 
   const productImages = [
-    "public/assets/hero/1.png",
-    "public/assets/hero/2.png",
-    "public/assets/hero/3.png"
+    "assets/hero/1.png",
+    "assets/hero/2.png",
+    "assets/hero/3.png"
   ];
 
   useEffect(() => {
@@ -117,56 +117,56 @@ const Index = () => {
     icon: <BarChart2 className="h-5 w-5" />, // grafik, statistik
     title: "Dashboard Interaktif & Real-time",
     description: "Pantau tamu undangan secara langsung melalui dashboard modern yang menampilkan grafik kehadiran, aktivitas terbaru, serta statistik pengiriman undangan dalam sekali lihat. Semua data penting tersaji jelas, bikin kamu makin percaya diri di hari acara!",
-    image: "public/assets/dgb/17.png"
+    image: "assets/dgb/17.png"
   },
   {
     id: "layar-sapa",
     icon: <CalendarCheck className="h-5 w-5" />, // acara, kalender
     title: "Kelola Banyak Acara Dalam Satu Aplikasi",
     description: "Ga perlu ribet lagi pakai banyak aplikasi! Di Ramkative, kamu bisa mengelola berbagai acara sekaligus. Cukup satu tempat, semua terintegrasi rapi, mulai dari tanggal, lokasi, hingga detail undangan yang sudah disiapkan.",
-    image: "public/assets/dgb/18.png"
+    image: "assets/dgb/18.png"
   },
   {
     id: "food-management",
     icon: <Users className="h-5 w-5" />, // data tamu
     title: "Data Tamu Tersusun Rapi & Mudah Diatur",
     description: "Kelola daftar tamu secara digital, lengkap dengan kategori, kontak, serta informasi penting lainnya dalam satu tabel yang user-friendly. Impor dan ekspor data dengan mudah kapan pun dibutuhkan!",
-    image: "public/assets/dgb/19.png"
+    image: "assets/dgb/19.png"
   },
   {
     id: "selfie-checkin",
     icon: <Send className="h-5 w-5" />, // pengiriman undangan digital
     title: "Undangan Digital Dengan Tracking Pengiriman",
     description: "Undang tamu secara digital, dilengkapi QR Code khusus untuk setiap undangan. Status undangan dapat dilacak dengan jelas, apakah sudah dikirim, dibuka, atau masih menunggu. Akses kontrol penuh di tangan kamu!",
-    image: "public/assets/dgb/20.png"
+    image: "assets/dgb/20.png"
   },
   {
     id: "pencatatan-hadiah",
     icon: <QrCode className="h-5 w-5" />, // scan QR & selfie
     title: "Check-in Cepat dan Praktis dengan Scan QR & Selfie",
     description: "Check-in tamu berlangsung lebih cepat, modern, dan akurat dengan teknologi scan QR Code. Tamu tinggal tunjukkan QR code unik mereka, langsung terdeteksi! Opsional dengan selfie, keamanan ekstra tanpa ribet, tamu senang, acara lancar.",
-    image: "public/assets/dgb/21.png"
+    image: "assets/dgb/21.png"
   },
   {
     id: "cetak-qr-fisik",
     icon: <ClipboardCheck className="h-5 w-5" />, // check-in manual
     title: "Check-in Manual Sebagai Backup Praktis",
     description: "Jika tamu lupa membawa QR code, fitur check-in manual tersedia sebagai alternatif yang cepat dan mudah. Tetap fleksibel di segala situasi!",
-    image: "public/assets/dgb/22.png"
+    image: "assets/dgb/22.png"
   },
   {
     id: "log-kedatangan",
     icon: <ListChecks className="h-5 w-5" />, // log kedatangan
     title: "Log Kedatangan Tamu Akurat & Terintegrasi",
     description: "Riwayat kedatangan tamu tercatat otomatis saat tamu melakukan check-in menggunakan QR code. Data lengkap dengan waktu kedatangan, lokasi meja, bahkan foto selfie bisa kamu unduh langsung untuk dokumentasi acara yang rapi.",
-    image: "public/assets/dgb/23.png"
+    image: "assets/dgb/23.png"
   },
   {
     id: "undangan-digital",
     icon: <MailOpen className="h-5 w-5" />, // undangan digital
     title: "Undangan Digital Elegan & Personalisasi",
     description: "Hadirkan kesan eksklusif untuk tamu VIP maupun reguler melalui undangan digital yang cantik dan modern. Dilengkapi informasi jelas serta QR Code khusus yang memudahkan proses kedatangan.",
-    image: "public/assets/dgb/24.png"
+    image: "assets/dgb/24.png"
   }
 
       ]
@@ -182,56 +182,56 @@ const Index = () => {
         icon: <LayoutDashboard className="h-5 w-5" />, // Ikon dashboard utama
         title: "Dashboard Overview - Satu Dashboard, Semua Terlihat Jelas",
         description: "Semua fitur inti kamu tampil dalam satu tampilan. Gak perlu klik sana-sini — kamu bisa liat progres persiapan nikah kamu secara menyeluruh dari awal sampai hari H. Serius, ini bikin kamu ngerasa lebih tenang.",
-        image: "public/assets/wpt/9.png"
+        image: "assets/wpt/9.png"
       },
       {
         id: "inspiration",
         icon: <Sparkles className="h-5 w-5" />, // Icon nuansa inspiratif
         title: "Inspiration - Ide Nikahan Keren, Semua dalam Satu Tempat",
         description: "Dari bridesmaid look sampai mahar dan dekor, semua referensi kece udah kita siapin. Gak usah scroll Pinterest berjam-jam — tinggal buka, pilih, dan save yang kamu suka.",
-        image: "public/assets/wpt/10.png"
+        image: "assets/wpt/10.png"
       },
       {
         id: "event-list",
         icon: <ClipboardCheck className="h-5 w-5" />, // Ikon checklist acara
         title: "Event List - Timeline Pernikahan Interaktif & Checklist Anti Lupa",
         description: "Atur semua dari checklist sampai rundown acara dengan gampang. Gak ada lagi hal yang bikin lupa “eh ini udah dicek belum ya?”",
-        image: "public/assets/wpt/11.png"
+        image: "assets/wpt/11.png"
       },
       {
         id: "guest-list",
         icon: <Users className="h-5 w-5" />, // Representasi tamu
         title: "Guest List Organizer - Data Tamu & Seating Chart Gak Lagi Ribet",
         description: "Susun tamu, tandai status undangan, atur tempat duduk — semua bisa kamu kelola digital. Simple, rapi, dan gak bikin pusing.",
-        image: "public/assets/wpt/12.png"
+        image: "assets/wpt/12.png"
       },
       {
         id: "financial-list",
         icon: <Wallet className="h-5 w-5" />, // Dompet untuk finansial
         title: "Wedding Budget Tracker - Biar Dompet Aman Sampai Hari H",
         description: "Budget kamu bisa dipantau real-time. Ada juga fitur vendor research & savings tracker biar keputusan finansial makin tepat.",
-        image: "public/assets/wpt/13.png"
+        image: "assets/wpt/13.png"
       },
       {
         id: "vendor-comparison",
         icon: <Scale className="h-5 w-5" />, // Bandingkan vendor = icon timbang
         title: "Vendor Comparison - Bandingin Vendor Yang Paling Pas",
         description: "Venue, MUA, catering, sampai dokumentasi — semua bisa kamu nilai dan bandingkan langsung. Jadi gak cuma “katanya bagus”, tapi emang terbukti cocok.",
-        image: "public/assets/wpt/14.png"
+        image: "assets/wpt/14.png"
       },
       {
         id: "administration-list",
         icon: <FileText className="h-5 w-5" />, // Dokumen administrasi
         title: "Checklist Administrasi Nikah - Biar Gak Ada yang Kelewat",
         description: "Semua keperluan administrasi kamu urut di sini, dari medical check-up sampai dokumen resmi. Gak perlu nyari info ke sana-sini lagi.",
-        image: "public/assets/wpt/15.png"
+        image: "assets/wpt/15.png"
       },
       {
         id: "supporting-things",
         icon: <Gift className="h-5 w-5" />, // Seserahan, donatur = hadiah
         title: "Supporting Things - Hal Kecil yang Bikin Nikah Kamu Makin Spesial",
         description: "Musik, seserahan, sampai rekap donatur — semuanya kita sediain tempatnya. Karena detail kecil juga bikin momen makin berkesan.",
-        image: "public/assets/wpt/16.png"
+        image: "assets/wpt/16.png"
       },
     ]
 
@@ -247,56 +247,56 @@ const Index = () => {
     icon: <Globe className="h-5 w-5" />,
     title: "Opening",
     description: "Sambutan hangat yang menyapa tamu saat pertama kali membuka undangan.",
-    image: "public/assets/diw/1.png"
+    image: "assets/diw/1.png"
   },
   {
     id: "mempelai",
     icon: <CheckCircle className="h-5 w-5" />,
     title: "Mempelai",
     description: "Perkenalan mempelai lengkap dengan foto dan kisah singkat perjalanan cinta.",
-    image: "public/assets/diw/2.png"
+    image: "assets/diw/2.png"
   },
   {
     id: "acara",
     icon: <Globe className="h-5 w-5" />,
     title: "Detail Acara",
     description: "Informasi lengkap seputar akad & resepsi: waktu, lokasi, dresscode, dll.",
-    image: "public/assets/diw/3.png"
+    image: "assets/diw/3.png"
   },
   {
     id: "gallery",
     icon: <CheckCircle className="h-5 w-5" />,
     title: "Galeri Foto & Video",
     description: "Tampilkan momen prewed, engagement, atau kenangan bersama dalam galeri digital.",
-    image: "public/assets/diw/4.png"
+    image: "assets/diw/4.png"
   },
   {
     id: "gift",
     icon: <Globe className="h-5 w-5" />,
     title: "Amplop Digital",
     description: "Mudah dan aman untuk menerima tanda kasih langsung lewat e-wallet atau rekening.",
-    image: "/public/assets/diw/5.png"
+    image: "/assets/diw/5.png"
   },
   {
     id: "love-story",
     icon: <CheckCircle className="h-5 w-5" />,
     title: "Love Story",
     description: "Kisah cinta kalian ditampilkan dalam bentuk timeline yang manis dan estetik.",
-    image: "public/assets/diw/6.png"
+    image: "assets/diw/6.png"
   },
   {
     id: "rsvp",
     icon: <Globe className="h-5 w-5" />,
     title: "RSVP & Ucapan",
     description: "Konfirmasi kehadiran dan kolom ucapan dari para tamu yang penuh doa baik.",
-    image: "public/assets/diw/7.png"
+    image: "assets/diw/7.png"
   },
   {
     id: "dresscode",
     icon: <CheckCircle className="h-5 w-5" />,
     title: "Dresscode",
     description: "Informasi tema busana agar para tamu bisa tampil selaras di hari spesialmu.",
-    image: "public/assets/diw/8.png"
+    image: "assets/diw/8.png"
   }
 ]
     }
@@ -1493,7 +1493,7 @@ const Index = () => {
                 className="flex items-center space-x-3 text-gray-300 hover:text-pink-500 transition-colors"
               >
                 <div className="w-8 h-8 bg-pink-500 rounded-lg flex items-center justify-center">
-                  <img src="public\assets\instagram.png" alt="Instagram" className="w-5 h-5" />
+                  <img src="assets\instagram.png" alt="Instagram" className="w-5 h-5" />
                 </div>
                 <span>@ramkative</span>
               </a>
@@ -1504,7 +1504,7 @@ const Index = () => {
                 className="flex items-center space-x-3 text-gray-300 hover:text-pink-500 transition-colors"
               >
                 <div className="w-8 h-8 bg-blue-500 rounded-lg flex items-center justify-center">
-                  <img src="public\assets\tiktok.png" alt="Tiktok" className="w-5 h-5" />
+                  <img src="assets\tiktok.png" alt="Tiktok" className="w-5 h-5" />
                 </div>
                 <span>Ramkative</span>
               </a>
@@ -1515,7 +1515,7 @@ const Index = () => {
                 className="flex items-center space-x-3 text-gray-300 hover:text-pink-500 transition-colors"
               >
                 <div className="w-8 h-8 bg-red-500 rounded-lg flex items-center justify-center">
-                  <img src="public\assets\youtube.png" alt="YouTube" className="w-6 h-4" />
+                  <img src="assets\youtube.png" alt="YouTube" className="w-6 h-4" />
                 </div>
                 <span>Ramkative</span>
               </a>
@@ -1525,7 +1525,7 @@ const Index = () => {
                   className="flex items-center space-x-3 text-gray-300 hover:text-pink-500 transition-colors"
                 >
                   <div className="w-8 h-8 bg-green-500 rounded-lg flex items-center justify-center">
-                    <img src="public\assets\whatsapp.png" alt="WhatsApp" className="w-5 h-5" />
+                    <img src="assets\whatsapp.png" alt="WhatsApp" className="w-5 h-5" />
                   </div>
                   <span>Chat Admin</span>
                 </a>
@@ -1538,52 +1538,52 @@ const Index = () => {
               <h3 className="text-lg font-semibold">Metode Pembayaran</h3>
               <div className="grid grid-cols-4 gap-3">
                 <div className="bg-white rounded-lg p-2 flex items-center justify-center">
-                  <img src="public\assets\bca.webp" alt="Logo BCA" className="h-6" />
+                  <img src="assets\bca.webp" alt="Logo BCA" className="h-6" />
                 </div>
                 <div className="bg-white rounded-lg p-2 flex items-center justify-center">
-                  <img src="public\assets\bni.webp" alt="Logo BNI" className="h-6" />
+                  <img src="assets\bni.webp" alt="Logo BNI" className="h-6" />
                 </div>
                 <div className="bg-white rounded-lg p-2 flex items-center justify-center">
-                  <img src="public\assets\ocbc.png" alt="Logo OCBC" className="h-6" />
+                  <img src="assets\ocbc.png" alt="Logo OCBC" className="h-6" />
                 </div>
                 <div className="bg-white rounded-lg p-2 flex items-center justify-center">
-                  <img src="public\assets\dbs.png" alt="Logo DBS" className="h-6" />
+                  <img src="assets\dbs.png" alt="Logo DBS" className="h-6" />
                 </div>
                 <div className="bg-white rounded-lg p-2 flex items-center justify-center">
-                  <img src="public\assets\seabank.png" alt="Logo Qris" className="h-6" />
+                  <img src="assets\seabank.png" alt="Logo Qris" className="h-6" />
                 </div>
                 <div className="bg-white rounded-lg p-2 flex items-center justify-center">
-                  <img src="public\assets\atmbersama.png" alt="Logo Qris" className="h-6" />
+                  <img src="assets\atmbersama.png" alt="Logo Qris" className="h-6" />
                 </div>
                 <div className="bg-white rounded-lg p-2 flex items-center justify-center">
-                  <img src="public\assets\dana.webp" alt="Logo Dana" className="h-6" />
+                  <img src="assets\dana.webp" alt="Logo Dana" className="h-6" />
                 </div>
                 <div className="bg-white rounded-lg p-2 flex items-center justify-center">
-                  <img src="public\assets\gopay.webp" alt="Logo Gopay" className="h-6" />
+                  <img src="assets\gopay.webp" alt="Logo Gopay" className="h-6" />
                 </div>
                 <div className="bg-white rounded-lg p-2 flex items-center justify-center">
-                  <img src="public\assets\ovo.webp" alt="Logo Ovo" className="h-6" />
+                  <img src="assets\ovo.webp" alt="Logo Ovo" className="h-6" />
                 </div>
                 <div className="bg-white rounded-lg p-2 flex items-center justify-center">
-                  <img src="public\assets\shopepay.webp" alt="Logo ShopePay" className="h-6" />
+                  <img src="assets\shopepay.webp" alt="Logo ShopePay" className="h-6" />
                 </div>
                 <div className="bg-white rounded-lg p-2 flex items-center justify-center">
-                  <img src="public\assets\linkaja.png" alt="Logo Qris" className="h-6" />
+                  <img src="assets\linkaja.png" alt="Logo Qris" className="h-6" />
                 </div>
                 <div className="bg-white rounded-lg p-2 flex items-center justify-center">
-                  <img src="public\assets\mastercard.webp" alt="Logo Mastercard" className="h-6" />
+                  <img src="assets\mastercard.webp" alt="Logo Mastercard" className="h-6" />
                 </div>
                 <div className="bg-white rounded-lg p-2 flex items-center justify-center">
-                  <img src="public\assets\visa.webp" alt="Logo Visa" className="h-6" />
+                  <img src="assets\visa.webp" alt="Logo Visa" className="h-6" />
                 </div>
                 <div className="bg-white rounded-lg p-2 flex items-center justify-center">
-                  <img src="public\assets\qris.png" alt="Logo Qris" className="h-6" />
+                  <img src="assets\qris.png" alt="Logo Qris" className="h-6" />
                 </div>
                 <div className="bg-white rounded-lg p-2 flex items-center justify-center">
-                  <img src="public\assets\bitcoin.png" alt="Logo Qris" className="h-6" />
+                  <img src="assets\bitcoin.png" alt="Logo Qris" className="h-6" />
                 </div>
                 <div className="bg-white rounded-lg p-2 flex items-center justify-center">
-                  <img src="public\assets\paypal.png" alt="Logo Qris" className="h-6" />
+                  <img src="assets\paypal.png" alt="Logo Qris" className="h-6" />
                 </div>
               </div>
               <p className="text-sm text-gray-400">
