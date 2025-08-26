@@ -333,9 +333,13 @@ const Index = () => {
               <button onClick={() => scrollToSection('testimoni')} className="text-gray-700 hover:text-pink-500 transition-colors">
                 Testimoni
               </button>
-              <Button className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white">
-                Masuk/Daftar
-              </Button>
+<Button
+  className="bg-gradient-to-r from-pink-500 to-purple-600 text-white w-full"
+  onClick={() => window.location.href = "https://buku-tamu.ramkative.my.id/home"}
+>
+  Masuk ke Buku Tamu
+</Button>
+
             </div>
 
             {/* Mobile Menu Button */}
