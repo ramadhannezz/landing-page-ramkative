@@ -373,9 +373,6 @@ const Index = () => {
   Masuk ke Buku Tamu
 </Button>
 
-                <Button className="bg-gradient-to-r from-pink-500 to-purple-600 text-white w-full">
-                  Masuk/Daftar
-                </Button>
               </div>
             </div>
           )}
