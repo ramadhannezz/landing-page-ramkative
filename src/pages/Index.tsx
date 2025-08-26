@@ -333,12 +333,10 @@ const Index = () => {
               <button onClick={() => scrollToSection('testimoni')} className="text-gray-700 hover:text-pink-500 transition-colors">
                 Testimoni
               </button>
-<Button
-  className="bg-gradient-to-r from-pink-500 to-purple-600 text-white w-full"
-  onClick={() => window.location.href = "https://buku-tamu.ramkative.my.id/home"}
->
+<Button className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-4 py-2 rounded-lg">
   Masuk ke Buku Tamu
 </Button>
+
 
             </div>
 
@@ -370,12 +368,10 @@ const Index = () => {
                 <button onClick={() => scrollToSection('testimoni')} className="text-left text-gray-700 hover:text-pink-500">
                   Testimoni
                 </button>
-<Button
-  className="bg-gradient-to-r from-pink-500 to-purple-600 text-white w-full"
-  onClick={() => window.location.href = "https://buku-tamu.ramkative.my.id/home"}
->
+<Button className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-4 py-2 rounded-lg">
   Masuk ke Buku Tamu
 </Button>
+
 
               </div>
             </div>
