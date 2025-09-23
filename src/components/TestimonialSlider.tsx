@@ -21,7 +21,7 @@ const testimonials: Testimonial[] = [
     role: "Pasangan Pengantin",
     image: "/assets/user (1).jpg",
     rating: 5,
-    text: "Ramkative sangat membantu pernikahan aku! Website undangan digitalnya elegan dan mudah digunakan. Semua tamu bisa RSVP dengan mudah dan QR Code guestbook-nya sangat praktis. Highly recommended!",
+    text: "Wediary sangat membantu pernikahan aku! Website undangan digitalnya elegan dan mudah digunakan. Semua tamu bisa RSVP dengan mudah dan QR Code guestbook-nya sangat praktis. Highly recommended!",
     weddingDate: "Oktober 2024"
   },
   {
@@ -30,7 +30,7 @@ const testimonials: Testimonial[] = [
     role: "Pasangan Pengantin",
     image: "/assets/user (5).jpg",
     rating: 5,
-    text: "Wedding planner tools dari Ramkative membantu banget dalam mengatur timeline dan budget pernikahan. Fitur vendor management-nya juga sangat berguna. Terima kasih Ramkative!",
+    text: "Wedding planner tools dari Wediary membantu banget dalam mengatur timeline dan budget pernikahan. Fitur vendor management-nya juga sangat berguna. Terima kasih Wediary!",
     weddingDate: "September 2024"
   },
   {
@@ -39,7 +39,7 @@ const testimonials: Testimonial[] = [
     role: "Pasangan Pengantin",
     image: "/assets/user (3).jpg",
     rating: 5,
-    text: "Awalnya ragu menggunakan undangan digital, tapi setelah coba Ramkative, aku jadi yakin! Template-nya bagus, customizable, dan ramah lingkungan. Customer service-nya juga responsif banget.",
+    text: "Awalnya ragu menggunakan undangan digital, tapi setelah coba Wediary, aku jadi yakin! Template-nya bagus, customizable, dan ramah lingkungan. Customer service-nya juga responsif banget.",
     weddingDate: "November 2024"
   },
     {
@@ -48,7 +48,7 @@ const testimonials: Testimonial[] = [
     role: "Pasangan Pengantin",
     image: "/assets/user (6).jpg",
     rating: 4,
-    text: "Digital guestbook dengan QR Code dari Ramkative bikin acara pernikahan aku jadi lebih interaktif. Tamu-tamu senang bisa langsung foto selfie dan kasih ucapan. Semua memories tersimpan dengan rapi!",
+    text: "Digital guestbook dengan QR Code dari Wediary bikin acara pernikahan aku jadi lebih interaktif. Tamu-tamu senang bisa langsung foto selfie dan kasih ucapan. Semua memories tersimpan dengan rapi!",
     weddingDate: "November 2024"
   },
   {
@@ -57,7 +57,7 @@ const testimonials: Testimonial[] = [
     role: "Pasangan Pengantin",
     image: "/assets/user (4).jpg",
     rating: 5,
-    text: "Digital guestbook dengan QR Code dari Ramkative bikin acara pernikahan aku jadi lebih interaktif. Tamu-tamu senang bisa langsung foto selfie dan kasih ucapan. Semua memories tersimpan dengan rapi!",
+    text: "Digital guestbook dengan QR Code dari Wediary bikin acara pernikahan aku jadi lebih interaktif. Tamu-tamu senang bisa langsung foto selfie dan kasih ucapan. Semua memories tersimpan dengan rapi!",
     weddingDate: "Desember 2024"
   }
 ];
@@ -94,7 +94,7 @@ const TestimonialSlider = () => {
             Apa Kata <span className="text-pink-500">Pasangan Kami?</span>
           </h2>
           <p className="text-lg text-gray-600">
-            Lebih dari 1000+ pasangan telah mempercayai Ramkative untuk pernikahan mereka
+            Lebih dari 1000+ pasangan telah mempercayai Wediary untuk pernikahan mereka
           </p>
         </div>
 
