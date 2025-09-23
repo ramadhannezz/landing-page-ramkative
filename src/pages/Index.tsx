@@ -1507,7 +1507,7 @@ const Index = () => {
                 <div className="w-8 h-8 bg-pink-500 rounded-lg flex items-center justify-center">
                   <img src="assets\instagram.png" alt="Instagram" className="w-5 h-5" />
                 </div>
-                <span>@Wediary</span>
+                <span>Wediary</span>
               </a>
               <a 
                 href="https://www.tiktok.com/@wediary_id" 
