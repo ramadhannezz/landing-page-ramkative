@@ -123,7 +123,7 @@ const Index = () => {
     id: "layar-sapa",
     icon: <CalendarCheck className="h-5 w-5" />, // acara, kalender
     title: "Kelola Banyak Acara Dalam Satu Aplikasi",
-    description: "Ga perlu ribet lagi pakai banyak aplikasi! Di Ramkative, kamu bisa mengelola berbagai acara sekaligus. Cukup satu tempat, semua terintegrasi rapi, mulai dari tanggal, lokasi, hingga detail undangan yang sudah disiapkan.",
+    description: "Ga perlu ribet lagi pakai banyak aplikasi! Di Wediary, kamu bisa mengelola berbagai acara sekaligus. Cukup satu tempat, semua terintegrasi rapi, mulai dari tanggal, lokasi, hingga detail undangan yang sudah disiapkan.",
     image: "assets/dgb/18.png"
   },
   {
@@ -174,7 +174,7 @@ const Index = () => {
     "wedding-planner": {
       title: "Wedding Planner Tools",
       subtitle: "Nikah Niatnya Bahagia, Tapi Kok Persiapannya Bikin Pusing?",
-      description: "Tenang, kamu gak sendirian. Ramkative hadir buat bantuin kamu rapiin semua hal yang sering bikin stres pas nyiapin nikah",
+      description: "Tenang, kamu gak sendirian. Wediary hadir buat bantuin kamu rapiin semua hal yang sering bikin stres pas nyiapin nikah",
       copywriting: "Daripada ngatur budget di notes, nyimpen vendor di chat, dan checklist-nya lupa ditandain — mending pakai satu tools yang udah nyatuin semuanya",
     features: [
       {
@@ -313,7 +313,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
           <a href="#" className="flex items-center space-x-2">
-            <img src="/assets/logo.png" alt="Logo Ramkative" className="h-10 w-auto" />
+            <img src="/assets/logo.png" alt="Logo Wediary" className="h-10 w-auto" />
           </a>
 
             {/* Desktop Menu */}
@@ -489,7 +489,7 @@ const Index = () => {
               Persiapan nikah itu kadang <span className="text-red-500">bikin pusing, ya?</span>
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Ramkative hadir buat bantu kamu lewat tools digital lengkap, supaya semua rencana bisa jalan lancar sampai hari bahagia
+              Wediary hadir buat bantu kamu lewat tools digital lengkap, supaya semua rencana bisa jalan lancar sampai hari bahagia
             </p>
           </div>
 
@@ -558,7 +558,7 @@ const Index = () => {
               <CheckCircle className="h-12 w-12 text-white" />
             </div>
             <h3 className="text-3xl font-bold text-gray-900 mb-4">
-              Ramkative Solusi <span className="text-pink-500">Semua Masalah!</span>
+              Wediary Solusi <span className="text-pink-500">Semua Masalah!</span>
             </h3>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
               Dengan teknologi digital terdepan, kami mengubah persiapan pernikahan yang ribet menjadi mudah, hemat, dan modern. Satu platform untuk semua kebutuhan pernikahan kamu
@@ -580,7 +580,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Kenapa Harus <span className="text-pink-500">Ramkative?</span>
+              Kenapa Harus <span className="text-pink-500">Wediary?</span>
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Kami paham betapa pentingnya hari pernikahan kamu. Dengan teknologi terdepan dan desain yang memukau, kami siap bantu kamu dalam mempersiapkan pernikahan
@@ -769,7 +769,7 @@ const Index = () => {
 
           <div className="text-center mt-12">
             <p className="text-gray-600 mb-6">
-              Ribuan pasangan telah mempercayai Ramkative untuk pernikahan mereka
+              Ribuan pasangan telah mempercayai Wediary untuk pernikahan mereka
             </p>
             <Button 
               size="lg" 
@@ -1483,14 +1483,14 @@ const Index = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
               <a href="#" className="flex items-center space-x-2">
-                <img src="/assets/logo.png" alt="Logo Ramkative" className="h-10 w-auto" />
+                <img src="/assets/logo.png" alt="Logo Wediary" className="h-10 w-auto" />
               </a>
               </div>
               <p className="text-gray-300 leading-relaxed">
                 Solusi digital terpercaya untuk pernikahan mudah dan modern. Kami siap bantu mewujudkan pernikahan impian kamu dengan mudah dan dipadukan dengan teknologi terdepan serta desain yang memukau.
               </p>
               <p className="text-sm text-gray-400">
-                © 2024 Ramkative. All rights reserved.
+                © 2024 Wediary. All rights reserved.
               </p>
             </div>
 
@@ -1499,7 +1499,7 @@ const Index = () => {
               <h3 className="text-lg font-semibold">Ikuti Kami</h3>
               <div className="space-y-3">
               <a 
-                href="https://www.instagram.com/ramkative" 
+                href="https://www.instagram.com/Wediary_id" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center space-x-3 text-gray-300 hover:text-pink-500 transition-colors"
@@ -1507,10 +1507,10 @@ const Index = () => {
                 <div className="w-8 h-8 bg-pink-500 rounded-lg flex items-center justify-center">
                   <img src="assets\instagram.png" alt="Instagram" className="w-5 h-5" />
                 </div>
-                <span>@ramkative</span>
+                <span>@Wediary</span>
               </a>
               <a 
-                href="https://www.tiktok.com/@dwp_byramkative" 
+                href="https://www.tiktok.com/@wediary_id" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center space-x-3 text-gray-300 hover:text-pink-500 transition-colors"
@@ -1518,10 +1518,10 @@ const Index = () => {
                 <div className="w-8 h-8 bg-blue-500 rounded-lg flex items-center justify-center">
                   <img src="assets\tiktok.png" alt="Tiktok" className="w-5 h-5" />
                 </div>
-                <span>Ramkative</span>
+                <span>Wediary</span>
               </a>
               <a 
-                href="https://www.youtube.com/@ramkative" 
+                href="https://www.youtube.com/@Wediary_id" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center space-x-3 text-gray-300 hover:text-pink-500 transition-colors"
@@ -1529,7 +1529,7 @@ const Index = () => {
                 <div className="w-8 h-8 bg-red-500 rounded-lg flex items-center justify-center">
                   <img src="assets\youtube.png" alt="YouTube" className="w-6 h-4" />
                 </div>
-                <span>Ramkative</span>
+                <span>Wediary</span>
               </a>
                 <a href="https://wa.me/62881011287735"
                   target="_blank"
