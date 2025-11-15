@@ -985,8 +985,8 @@ const Index = () => {
                 <br />
                 <br />
                 <div className="text-4xl font-bold text-pink-500 my-2">
-                  Rp 59K
-                  <span className="text-sm font-medium text-gray-500 line-through ml-2">Rp 99K</span>
+                  Rp 39K
+                  <span className="text-sm font-medium text-gray-500 line-through ml-2">Rp 69K</span>
                 </div>
                 <div className="text-sm text-red-600 font-semibold mb-1">Hemat 40% – Promo Terbatas!</div>
                 {/* <div className="text-xs text-gray-500 italic">
@@ -1050,7 +1050,7 @@ const Index = () => {
                 <CardDescription className="mt-2">Solusi lengkap untuk persiapan pernikahan, dengan all-in bundling</CardDescription>
                 <br />
                 <div className="text-4xl font-bold text-pink-500 my-2">
-                  Rp 249K
+                  Rp 185K
                 <span className="text-sm font-medium text-gray-500 line-through ml-2">Rp 622K</span>
                   </div>
                 <div className="text-sm text-red-600 font-semibold mb-1">Hemat 60% – Promo Terbatas!</div>
@@ -1106,7 +1106,7 @@ const Index = () => {
                 <CardDescription className="mt-2">Solusi hemat budget dan terintegrasi</CardDescription>
                 <br />
                 <div className="text-4xl font-bold text-pink-500 my-2">
-                  Rp 179K
+                  Rp 118K
                 <span className="text-sm font-medium text-gray-500 line-through ml-2">Rp 250K</span>
                 </div>
                 <div className="text-sm text-red-600 font-semibold mb-1">Hemat 30% – Promo Terbatas!</div>
@@ -1167,8 +1167,8 @@ const Index = () => {
                 <CardTitle className="text-2xl font-bold text-gray-900">Wedding Planner Tools</CardTitle>
                 <br />
                 <div className="text-4xl font-bold text-pink-500 my-2">
-                  Rp 59K
-                  <span className="text-sm font-medium text-gray-500 line-through ml-2">Rp 99K</span>
+                  Rp 39K
+                  <span className="text-sm font-medium text-gray-500 line-through ml-2">Rp 69K</span>
                 </div>
                 <div className="text-sm text-red-600 font-semibold mb-1">Hemat 40% – Promo Terbatas!</div>
               </CardHeader>
@@ -1236,7 +1236,7 @@ const Index = () => {
                 <CardTitle className="text-2xl font-bold text-gray-900">Digital Invitation Website</CardTitle>
                 <br />
                 <div className="text-4xl font-bold text-pink-500 my-2">
-                  Rp 129K
+                  Rp 79K
                   <span className="text-sm font-medium text-gray-500 line-through ml-2">Rp 189K</span>
                 </div>
                 <div className="text-sm text-red-600 font-semibold mb-1">Hemat 30% – Promo Terbatas!</div>
@@ -1299,7 +1299,7 @@ const Index = () => {
                 <CardTitle className="text-2xl font-bold text-gray-900">Digital Guest Book QR Code</CardTitle>
                 <br />
                 <div className="text-4xl font-bold text-pink-500 my-2">
-                  Rp 99K
+                  Rp 69K
                   <span className="text-sm font-medium text-gray-500 line-through ml-2">Rp 149K</span>
                 </div>
                 <div className="text-sm text-red-600 font-semibold mb-1">Hemat 33% – Promo Terbatas!</div>
